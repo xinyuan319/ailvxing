@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>i旅行-注册页</title>
+    <link rel="stylesheet" type="text/css" href="../css/zhuce.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+</head>
+<body>
+    <div class="aa">
+        <div class="left">
+            <img src="../images/img/i-LOGO-02-01.png">
+        </div>
+        <div class="rigth aa1">
+            <a href="denglu.html" class="hr1">登录</a> &nbsp;|&nbsp;
+            <a href="#">客服中心</a>
+        </div>
+    </div>
+    <div class="bb">
+        <div class="left bb1">
+            <form action="denglu.html"  method="get">
+                <div class="left">
+                    <p>手机号</p>
+                    <p>邮箱注册</p>
+                    <p>登录密码</p>
+                    <p>验证码</p>
+                    <p>激活码</p>
+                </div>
+                <div class="rigth">
+                    <p><label><input type="radio" id="rad1" name="zc" value="手机注册" checked>手机注册</label>
+                    <label><input type="radio" id="rad2" name="zc" value="邮箱注册">邮箱注册</label></p>
+                    <p><input type="text" id="mobile" placeholder="请输入手机号" class="inp1"><span id="sjspan"></span></p>
+                    <p><input type="email"id="email" placeholder="请输入邮箱" class="inp1"><span id="emspan"></span></p>
+                    <p><input type="password" id="pwd" placeholder="请输入密码" class="inp1"><span id="pwdspan"></span></p>
+                    <p><input type="text" id="yzm" placeholder="请输入验证码" class="inp2"><span class="bb1_1">zshW</span><span class="span3">换一张</span><span id="yzspan"></span></p>
+                    <p><input type="text" id="jhm" placeholder="请输入激活码" class="inp2"><input type="button" class="bb1_2" value="获取激活码"><span id="jhspan"></span></p>
+                    <p><input type="checkbox" id="checkbox" name="rule">我已经阅读并同意遵守 <a class="hr1" href="#">《i旅行用户服务协议》</a></p>
+                    <p><input type="submit" class="bb1_3" value="同意协议并注册"></p>
+                </div>
+            </form>
+        </div>
+        <div class="rigth bb2"></div>
+    </div>
+<!--底部html-->
+    <iframe src="footer.html" frameborder="0" width="100%" height="100%">
+
+    </iframe>
+</body>
+<script rel="script" src="../js/jquery-1.12.4.js"></script>
+<script rel="script" src="../js/bootstrap.js"></script>
+<script rel="script" src="../js/zhuce.js"></script>
+</html>
